@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 225 25% 6%;
+    --foreground: 210 20% 95%;
+    --card: 225 20% 9%;
+    --card-foreground: 210 20% 95%;
+    --popover: 225 20% 9%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 349 85% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 225 15% 15%;
+    --secondary-foreground: 210 20% 90%;
+    --muted: 225 15% 13%;
+    --muted-foreground: 220 10% 55%;
+    --accent: 349 85% 60%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 225 15% 16%;
+    --input: 225 15% 16%;
+    --ring: 349 85% 60%;
+    --chart-1: 349 85% 60%;
+    --chart-2: 200 70% 50%;
+    --chart-3: 40 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 160 60% 45%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

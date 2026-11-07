@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="533" viewBox="0 0 400 533" fill="none">
+  <rect width="400" height="533" fill="#1a1a2e"/>
+  <g opacity="0.3">
+    <rect x="160" y="220" width="80" height="80" rx="8" stroke="#8b8b9e" stroke-width="3" fill="none"/>
+    <circle cx="182" cy="248" r="8" fill="#8b8b9e"/>
+    <path d="M163 285l20-25 15 18 10-12 29 35H163z" fill="#8b8b9e"/>
+  </g>
+  <text x="200" y="330" text-anchor="middle" fill="#8b8b9e" font-family="system-ui" font-size="13" opacity="0.5">Sin imagen</text>
+</svg>
