@@ -27,6 +27,22 @@ The interface text is in Spanish.
 
 Most covers show «Sin imagen» because the mock data only ships images for a few titles.
 
+### Vite frontend
+
+![Home page with the hero slider of the season](vite-frontend/screenshots/home.webp)
+
+| Anime list | Anime detail |
+|---|---|
+| ![Anime list with covers, studios and airing status](vite-frontend/screenshots/anime-list.webp) | ![Anime detail page with genres, year, episodes, score and synopsis](vite-frontend/screenshots/anime-detail.webp) |
+
+| Manga list | Airing schedule |
+|---|---|
+| ![Manga list with scores](vite-frontend/screenshots/manga-list.webp) | ![Weekly airing schedule with day picker](vite-frontend/screenshots/schedule.webp) |
+
+<img src="vite-frontend/screenshots/home-mobile.webp" alt="Home page on a phone" width="300">
+
+The Jikan API was down when these were taken (November 2026), so the data comes from Internet Archive copies of its responses.
+
 ## Run them
 
 You need Node.js 20 or newer.
